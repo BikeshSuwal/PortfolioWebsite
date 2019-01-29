@@ -1,0 +1,114 @@
+html, body {
+	height: 100%;
+	width:100%;
+	font-family:'Poppins', sans-serif;
+	font-weight: 300;
+	line-height:1.7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation*/
+  .navbar {
+	background-color:#459BFC;
+	height: 90px;
+	width: 100%;}
+	  .navbar-brand img {
+		height:55px;
+		border-radius:5px;
+		padding:none;
+		overflow:hidden}
+		
+	  .navbar-nav li {
+		padding-right:20px;
+		margin: 0px;}
+	  .nav-link{
+		font-size: 1.1em !important;
+		margin-right:20px;
+		color: white;}
+		.nav-link:hover {
+			color:blue;}
+	  .navbar-box {
+		background-color:#459BFC;
+		opacity: 1;
+		padding: 0px 20px;
+		border-radius: 5px;}
+	  .navbar-toggler-icon {
+	    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");}
+	  .Search-box, .Search-box-label, .Search-close {
+		display: inline;}
+	      .Search-box, .Search-close {
+		    display: none;}
+
+/*site hero*/
+  .site-hero {
+	background-image: url("hero.jpg");
+	background-size: cover;}
+    .main-text {
+	  color: white;
+	  text-align: center;
+	  text-shadow: 2px 2px 4px #000000;
+	  line-height:2;}
+    .briefDescription {
+	  font-size: 20px;}
+	    @media (max-width: 768px) {
+	      .main-text h1 {
+            font-size: 35px; }
+	      .main-text .briefDescription {
+	        font-size: 17px;
+	        line-height:0.3;}}
+	    @media screen and (min-width: 480px) {
+          .main-text {
+	        padding: 100px 20px;}}
+        @media screen and (max-width: 480px) {
+          .main-text {
+	        padding: 60px 20px;}}   
+    .buttonBox {
+	  margin:0px 5px;}
+
+/*about me*/
+.aboutMe {
+	margin-top: 40px;}
+  .jiguPhoto img {
+	display: block;
+	position: relative;
+	max-width: 100%;
+	height: auto;
+	border:solid 2px lightgrey;
+	overflow: hidden;
+	-webkit-box-shadow:2px 2px 4px #000000;
+	box-shadow:2px 2px 4px #000000;}
+  .jiguBare {
+    position: relative;
+	padding: 20px;}
+	  .greenLine {
+		content: "";
+		text-align: center;
+		margin: 10px 0px;
+		top:0;
+		height: 3px;
+		width: 60px;
+		background-color:#57d131;}
+	  .detail {
+		line-height:2;
+	    text-align: justify;}
+	  .buttonMore {
+	    border-radius: 20px;}
+      @media screen and (max-width: 480px) {
+          .jiguBare {
+	        font-size: 10px;
+			font-weight:500;}}   
+		
+  
+
+
+
+
+
+
+
+
